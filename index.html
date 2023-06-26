@@ -1,0 +1,301 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>    El portfolio</title>
+    
+    <link rel="stylesheet" href="style.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  
+
+
+</head>
+<body>
+    
+    <header class="header">
+
+        <a href="#" class="logo">Rao.</a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <nav class="navbar">
+
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+
+    </header>
+
+    <section class="home" id="home">
+
+        <div class="home-content">
+
+            <h1>Hi! I am <span>Kartikay Singh Rao</span></h1>
+            <div class="text-animate">
+
+                <h3>Student</h3>
+
+            </div>
+            <p> I am a highschool graduate from Brent International School Manila. I graduated highschool in 2023.
+                I am interested in coding and I will be pursuing Computer Science at University of British Columbia, Vancouver.
+                I am 17 years old
+            </p>
+
+            <div class="btn-box">
+
+                <a id = "contactbut" href="#" class="btn">let's talk!</a>
+
+                    <script>
+
+                            document.getElementById('contactbut').addEventListener('click', function() {
+                                window.scrollBy({
+                                top: document.documentElement.scrollHeight, // Scroll down by the height of the viewport
+                                behavior: 'smooth' // Use smooth scrolling behavior
+                                });
+                            });
+
+
+
+
+                    </script>
+
+
+            </div>
+        </div>
+
+
+        <div class="home-sci">
+            <a id = "gmail" href="#"><i class='bx bxl-gmail' style='color:rgb(255, 255, 255)'></i></a>
+            <a id = "insta" href="#"><i class='bx bxl-instagram' style='color:#ffffff' ></i></a>
+            <a id = "num"   href="#"><i class='bx bx-phone' style='color:#ffffff' ></i></a>
+        </div>
+
+
+        <script>
+
+            document.getElementById('gmail').addEventListener('click', function(){
+
+                Swal.fire('Scroll down to the contact form!');
+
+            });
+
+            document.getElementById('insta').addEventListener('click', function(){
+
+                Swal.fire('Contact me at @ksrao_');
+
+            });
+
+            document.getElementById('num').addEventListener('click', function(){
+
+                Swal.fire('My number is +63 9494752208');
+
+            });
+
+
+
+        </script>
+
+
+    </section>
+
+    <section class = "about" id = "about">
+        <h2 class = "heading">About <span>Me</span></h2>
+
+        <div class="about-img">
+
+                <img src="photo1.png" alt="" >
+                <span class="circle-spin"></span>
+
+        </div>
+
+        <div class="about-content">
+            <h3>Student</h3>
+            <p>I am a highschool graduate from Brent International School Manila. I graduated highschool in 2023.
+                I am interested in coding and I will be pursuing Computer Science at University of British Columbia, Vancouver.
+                I am 17 years old</p>
+
+
+            <p>I like to play sports such as basketball, and I also love taking photos of nature. I was the club leader of the photography club in my school and the manager of our varsity basketball team. I am ambitious and dedicated to my goals. My favorite saying is, "What doesn't kill you, makes you stronger"</p>
+                
+                <h3>Life isn't easy, all we need is discipline and dedication</h3>
+        
+        </div>
+
+    </section>
+
+    <!--education section-->  
+    <section class="education" id="education">
+
+        <h2 class="heading">
+
+            My <span>Journey</span>
+
+        </h2>
+
+        <div class = education-row>
+
+            <div class = education-column>
+
+                <h3 class="title">Education</h3>
+
+                <div class="education-box">
+
+                    <div class="education-content">
+
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>2019 - 2023</div>
+                            <h3>High School Degree - Brent International School, Manila</h3>
+                            <p>I studied under the IB Diploma in Brent, where I learned many important things such as working under pressure,
+                                time management and punctuality. High school was a very significant part of my life since it taught me new things,
+                                and gave me wonderful friends.
+                            </p>
+                        </div>
+                    </div>
+
+                    
+
+                </div>
+
+                <h3 class="title">Experience</h3>
+
+                <div class="exp-box">
+
+                    <div class="exp-content">
+
+                        <div class="content1"> 
+                            <h3><i class='bx bx-chevrons-right' ></i> Bank planner</h3>
+                            <p>In this project, I made a program using JAVA which would allow a banker to manage all the details of his/her clients and also would allow the clients to have their own username and password, and they can withdraw and deposit money whenever they want. This is a very fictuous program, and doesn't have much real life applications.
+                            </p>
+                        </div>
+
+                        <div class="content2">
+
+                            <h3><i class='bx bx-chevrons-right' ></i> Kitchen Notebook</h3>
+                            <p>In this project, I made a program using JAVA which would allow a kitchen worker to buy things and add them to their inventory. The program will also allow the user to store recipies, and will also check whether the items in the inventory are enough to make the specific recipe. This is a simple project which uses JAVA tables and other small complexities.</p>
+
+                        </div>
+
+
+
+
+                        </div>
+                    </div>
+
+            </div>
+
+        </div>
+
+
+
+    </section>
+        
+    
+    <!--skills section-->  
+    
+    <section class="skills" id="skills">
+
+        <h2 class="head"> 
+        
+            My <span>skillset</span>
+    
+        </h2>
+
+        <div class="skills-row">
+
+            <div class="skills-column">
+
+                <h3 class="title"></h3>
+ 
+                    <div class="skills-box">
+
+                        <div class="skills-content">
+        
+                            <h3><i class='bx bx-cube-alt' ></i> Intelligent</h3>
+                            <h3><i class='bx bx-cube-alt' ></i> Quick learner</h3>
+                            <h3><i class='bx bx-cube-alt' ></i> Obedient</h3>
+                            <h3><i class='bx bx-cube-alt' ></i> Hard-Working and adaptable</h3>
+                            <h3><i class='bx bx-cube-alt' ></i> Logical and reasonable thinker</h3>
+                            <h3><i class='bx bx-cube-alt' ></i> Incredibly funny</h3>
+            
+                    </div>
+                
+                </div>
+        
+            </div>
+
+        </div>
+       
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading2">Contact <span>Me</span></h2>
+
+        <form  action="https://formsubmit.co/a31c68e769ced0a08202b5e65b27f055" method="POST" >
+
+            <div class="input-box">
+                <div class="input-field">
+
+                    <input name = "name" type="text" placeholder="Full name" required>
+                    <span class="focus"></span>
+
+                </div>
+
+                <div class="input-field">
+
+                    <input name = "email" type="email" placeholder="Email address" required>
+                    <span class="focus"></span>
+
+                </div>
+            </div>
+
+            <div class="input-box">
+                <div class="input-field">
+
+                    <input name = "number" type="number" placeholder="Mobile Number" required>
+                    <span class="focus"></span>
+
+                </div>
+
+                <div class="input-field">
+
+                    <input name = "subject" type="text" placeholder="Email subject" required>
+                    <span class="focus"></span>
+
+                </div>
+            </div>
+
+            <div class="textarea-field">
+
+                <textarea name="message" type = "text"id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+
+                <span class="focus"></span>
+            </div>
+
+            <div class="btn-box btns">
+
+                <button id = "submit" type="submit" class="btn">Submit</button>
+                
+            </div>
+
+        </form>
+
+    
+
+    </section>
+
+    <script src="webd.js"></script>
+
+</body>
+</html>
